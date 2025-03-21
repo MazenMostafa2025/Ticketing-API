@@ -15,6 +15,19 @@ This project is a **microservices-based ticketing system** that allows users to 
 - **Event Bus**: NATS Streaming Server  
 - **Containerization**: Docker  
 - **Orchestration**: Kubernetes (K8s)  
-- **Development Workflow**: Skaffold  
+- **Development Workflow**: Skaffold
+- Ingress NGINX (API Gateway)
+- Node.js, Express, TypeScript
+- Jest (Unit Testing)
+
+## Features
+- Authentication
+- Ticket Management with optimistic concurrency control
+- Expiration periods for tickets using redis-based queue (bull)
+- Payments service using stripe
+- Event driven architecture using NATS Streaming
+- Unit tests using Jest
+
+
 
 
