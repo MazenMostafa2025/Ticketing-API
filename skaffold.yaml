@@ -31,14 +31,6 @@ build:
         manual: 
           - src: 'src/**/*.ts'
             dest: .
-    - image: mazen24862/client
-      context: client
-      docker:
-        dockerfile: Dockerfile
-      sync: 
-        manual: 
-          - src: '**/*.js'
-            dest: .
     - image: mazen24862/expiration
       context: expiration
       docker:
